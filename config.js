@@ -18,7 +18,7 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/6e9111a989f493b974fcb.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
@@ -49,7 +49,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "923184474176,923xxxxx
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
@@ -64,12 +64,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.1.2.8",
-  caption : process.env.CAPTION || "≼╙≽≼𝗨𝗠𝗔𝗥≽≼╜≽" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ≼╙≽≼𝗨𝗠𝗔𝗥≽≼╜≽ 』```", //*『≼╙≽≼𝗨𝗠𝗔𝗥≽≼╜≽ • 𝑈𝛭𝛥𝑅』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "BLOCKBUSTER | KiNG | UMAR" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ≼╙≽≼𝗨𝗠𝗔𝗥≽≼╜≽ 』```", //*『≼╙≽≼𝗨𝗠𝗔𝗥≽≼╜≽ • 𝑈𝛭𝛥𝑅』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "Suhail-MD",
+  author : process.env.PACK_AUTHER|| "≼╙≽≼𝗨𝗠𝗔𝗥≽≼╜≽",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "≼╙≽≼𝗨𝗠𝗔𝗥≽≼╜≽",
+  ownername:process.env.OWNER_NAME|| "It'x UMAR",
 
   sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
   errorChat : process.env.ERROR_CHAT || "",
